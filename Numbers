@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int swap(int *a,int *b)
+int swap(long long int *a,long long int *b)
 {
     *a=*a+*b;
     *b=*a-*b;
@@ -10,7 +10,7 @@ int swap(int *a,int *b)
 }
 int main()
 {
-    int n,m;
+    long long int n,m;
     cin>>n>>m;
     swap(&n,&m);
     cout<<n<<endl<<m;
